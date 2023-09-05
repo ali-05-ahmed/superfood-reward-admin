@@ -1,0 +1,45 @@
+/* --------- footer styles start ---------
+ ==== */
+.footer-bg {
+  height: 400px;
+  background-size: contain;
+}
+.footer {
+  /* height: 400px; */
+  /* background-size: contain; */
+  background-color: #ffffff;
+  z-index: 1;
+}
+
+
+.footer__credit {
+  padding: 25px 0px;
+  /* border-top: 1px solid #ffffff20; */
+}
+
+@media only screen and (max-width: 1199px) {
+  .footer__credit {
+    padding: 20px 0px;
+  }
+}
+
+.footer__copyright p {
+  color: #000000;
+}
+
+@media only screen and (max-width: 575px) {
+  .footer__copyright p {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+
+.footer__copyright p a {
+  font-weight: 400;
+  color: #26dd77;
+}
+
+.footer__copyright p a:hover {
+  color: #ffffff;
+}

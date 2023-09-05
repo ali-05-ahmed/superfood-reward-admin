@@ -1,0 +1,23 @@
+.custom-header {
+  width: 100%;
+  height: 70px;
+  color: #fff;
+  background-color: rgba(255, 243, 243, 0.973);
+  padding: 0 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Futura-Medium;
+}
+.logo-section .logo {
+  width: 460px;
+  /* height: 70px; */
+}
+.flex-btn-group {
+  display: flex;
+  align-items: center;
+}
+.nav__group {
+  display: flex;
+  justify-content: space-between;
+}
